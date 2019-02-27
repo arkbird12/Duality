@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Duality
 //
-//  Created by rishi on 10/30/18.
+//  Created by rishi on 12/3/18.
 //  Copyright © 2018 Rishi Thakkar. All rights reserved.
 //
 

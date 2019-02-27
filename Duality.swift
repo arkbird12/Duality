@@ -46,8 +46,16 @@ class Duality {
         isTopActive = false
         isBottomActive = false
     }
-    
-    public func incrementTimer(timer : Int) {
-        // TODO: function to increment time var
+    /* if parameter = 1 topTime is incremented forward by 1 second if not 1 bottom incremented by 1 second */
+    public func increment(decider : Int) {
+        // NOTE: this function is very "hacky" in future timer class could just be called when timers need to be incremented
+        decider == 1 ? (topTime += 1) : (bottomTime += 1)
     }
+    
+    /* should be called every 24 hours or at user set time */
+    public func resetTimers() {
+        topTime = 0
+        bottomTime = 0
+    }
+    
 }
